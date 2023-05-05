@@ -1,6 +1,5 @@
 pipeline {
-    agent any 
-    { 
+    agent { 
         node {
             label 'maven-3.9.1'
             }
