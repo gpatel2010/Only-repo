@@ -2,7 +2,7 @@ pipeline {
     agent any 
     { 
         node {
-            label 'docker-agent-python'
+            label 'docker-agent-maven'
             }
       }
     triggers {
