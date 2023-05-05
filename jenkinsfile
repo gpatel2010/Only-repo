@@ -2,7 +2,7 @@ pipeline {
     agent any 
     { 
         node {
-            label 'docker-agent-maven'
+            label 'maven-3.9.1'
             }
       }
     triggers {
